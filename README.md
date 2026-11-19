@@ -1,15 +1,13 @@
-# SuperJump for Crimson Desert 1.0.0.1855
+# Super Jump for Crimson Desert
 
-GitHub-ready source and release package for the SuperJump update that restores the jump hotkey workflow after the Crimson Desert 1.12.x update.
+Windows x64 ASI source for the Super Jump variants maintained by sreerajjay. Original Super Jump concept by dukusmaximus. [Nexus mod page](https://www.nexusmods.com/crimsondesert/mods/3041)
 
-## Included
+| Variant | Trigger | Configuration |
+| --- | --- | --- |
+| [Third Palm P22](variants/third-palm/) | Kliff's third successful downward Force Palm in the opening jump. Damiane and Oongka use double jump. | SuperJump.ini |
+| [Double-jump d43](variants/double-jump/) | The configured double-jump trigger. | SuperJump.ini |
+| [Keypress k31](variants/keypress/) | The configured manual hotkey or controller chord. | SuperJump_Keypress.ini |
 
-- `source/SuperJump/` - source snapshot used for this build.
-- `SuperJump.asi` - tested ASI build.
-- `SuperJump.ini` - matching configuration file.
-- `BUILD_NOTES.md` - build notes and root-cause summary.
-- `CHANGELOG.md` - Nexus/GitHub-facing changelog.
+The variants target the named CrimsonDesert.exe process, validate native instruction contracts, install hooks through SafetyHook, and poll keyboard and controller inputs only while the game owns the foreground. Activate one variant at a time.
 
-## Deployment Note
-
-For Crimson Desert, deploy the ASI through Definitive Mod Manager. The INI may be mirrored to `bin64` when updating active settings.
+Build and test instructions are in the individual folders. The [Third Palm build notes](variants/third-palm/BUILD.md) document the exact build for Nexus file SJ_ThirdPalmv205. [Legacy source](source/SuperJump/) is retained for older releases.

@@ -1,3 +1,5 @@
+> Historical record for the older build. See the [current variants](README.md).
+
 # GitHub Ready Manifest
 
 Mod: SuperJump

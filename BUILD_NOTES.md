@@ -1,3 +1,5 @@
+> Historical record for the older build. See the [current variants](README.md).
+
 ﻿# SuperJump v1.5.21 - Crimson Desert 1.0.0.1855 delta-r4
 
 ## Purpose

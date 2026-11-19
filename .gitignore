@@ -1,0 +1,12 @@
+build/
+release/
+deps/lib/
+*.asi
+*.dll
+*.exe
+*.obj
+*.res
+*.lib
+*.pdb
+*.ilk
+*.ini
