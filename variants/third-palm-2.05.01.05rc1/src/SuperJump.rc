@@ -1,0 +1,30 @@
+#include <windows.h>
+#include "ModVersion.h"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION SUPERJUMP_VERSION_NUMBER
+ PRODUCTVERSION SUPERJUMP_VERSION_NUMBER
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS VS_FF_PRERELEASE
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "sreerajjay (SrJ)"
+            VALUE "FileDescription", "Super Jump Third Palm for Crimson Desert"
+            VALUE "FileVersion", SUPERJUMP_VERSION_TEXT
+            VALUE "InternalName", "SuperJump"
+            VALUE "LegalCopyright", "Copyright (C) 2026 SrJ (Third Palm changes)"
+            VALUE "OriginalFilename", "SuperJump_ThirdPalm.asi"
+            VALUE "ProductName", "Super Jump Third Palm"
+            VALUE "ProductVersion", SUPERJUMP_VERSION_TEXT
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

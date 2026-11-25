@@ -1,0 +1,4 @@
+#pragma once
+
+#define SUPERJUMP_VERSION_TEXT "2.05.01.05rc1"
+#define SUPERJUMP_VERSION_NUMBER 2,5,1,5

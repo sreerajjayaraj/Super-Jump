@@ -1,5 +1,9 @@
 # Super Jump for Crimson Desert
 
+## Current Third Palm candidate
+
+[Third Palm 2.05.01.05rc1](variants/third-palm-2.05.01.05rc1/BUILD.md) adds an offline-verified coexistence path for the recognized FreedomFlyer writer. The classic double-jump and keypress source folders remain available. Their 3732 guards and FreedomFlyer behavior are still under verification.
+
 Windows x64 ASI source for the Super Jump variants maintained by sreerajjay. Original Super Jump concept by dukusmaximus. [Nexus mod page](https://www.nexusmods.com/crimsondesert/mods/3041)
 
 | Variant | Trigger | Configuration |

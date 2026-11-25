@@ -1,0 +1,7 @@
+{
+  "candidate": "2.05.01.05rc1",
+  "baseline": "2.05.01.04rc1",
+  "game_executable": "1.0.0.3732",
+  "offline": ["native jump", "live boost configuration", "two-hook publisher", "stock game layout", "FreedomFlyer writer ownership and neutral-state fixtures"],
+  "gameplay_tested": false
+}
